@@ -16,7 +16,7 @@ app.on('ready', () => {
     minWidth: 380,
     minHeight: 360,
     backgroundColor: '#000',
-    icon: path.join(__dirname, { darwin: 'icon.icns', linux: 'icon.png', win32: 'icon.ico' }[process.platform] || 'icon.ico'),
+    icon: path.join(__dirname, { darwin: 'icon.icns', linux: 'icon.png', win32: 'icon.png' }[process.platform] || 'icon.ico'),
     resizable: true,
     frame: false,
     skipTaskbar: process.platform === 'darwin',
